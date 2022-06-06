@@ -1,0 +1,22 @@
+.bold{
+    background-color: #66FCF1;
+    color: #0B0C10;
+}
+a.pagination, span{
+    color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid grey;
+  border-radius: 2px;
+  background-color: white;
+}
+.pagination{
+text-align: center;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+  .pagination a:hover:not(.active) {background-color: cyan;}
